@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "innode": "node --experimental-modules --experimental-wasm-modules index.mjs"
   },
   "repository": {
     "type": "git",
